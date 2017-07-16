@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA4C47B41F1C1A4100648B0F /* Pride Hearts StickerPackExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AA4C47B31F1C1A4100648B0F /* Pride Hearts StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AA4C47B81F1C1A4200648B0F /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = AA4C47B71F1C1A4200648B0F /* Stickers.xcstickers */; };
+		AA4C47B91F1C1A4200648B0F /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = AA4C47B71F1C1A4200648B0F /* Stickers.xcstickers */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA4C47B51F1C1A4100648B0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA4C47A91F1C1A4100648B0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA4C47B21F1C1A4100648B0F;
+			remoteInfo = "Pride Hearts StickerPackExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AA4C47BF1F1C1A4200648B0F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AA4C47B41F1C1A4100648B0F /* Pride Hearts StickerPackExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AA4C47AF1F1C1A4100648B0F /* Pride Hearts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pride Hearts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA4C47B31F1C1A4100648B0F /* Pride Hearts StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Pride Hearts StickerPackExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA4C47B71F1C1A4200648B0F /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = "Pride Hearts StickerPackExtension/Stickers.xcstickers"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		AA4C47A81F1C1A4100648B0F = {
+			isa = PBXGroup;
+			children = (
+				AA4C47B71F1C1A4200648B0F /* Stickers.xcstickers */,
+				AA4C47B01F1C1A4100648B0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA4C47B01F1C1A4100648B0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA4C47AF1F1C1A4100648B0F /* Pride Hearts.app */,
+				AA4C47B31F1C1A4100648B0F /* Pride Hearts StickerPackExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA4C47AE1F1C1A4100648B0F /* Pride Hearts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA4C47C01F1C1A4200648B0F /* Build configuration list for PBXNativeTarget "Pride Hearts" */;
+			buildPhases = (
+				AA4C47AD1F1C1A4100648B0F /* Resources */,
+				AA4C47BF1F1C1A4200648B0F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA4C47B61F1C1A4100648B0F /* PBXTargetDependency */,
+			);
+			name = "Pride Hearts";
+			productName = "Pride Hearts";
+			productReference = AA4C47AF1F1C1A4100648B0F /* Pride Hearts.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		AA4C47B21F1C1A4100648B0F /* Pride Hearts StickerPackExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA4C47BC1F1C1A4200648B0F /* Build configuration list for PBXNativeTarget "Pride Hearts StickerPackExtension" */;
+			buildPhases = (
+				AA4C47B11F1C1A4100648B0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pride Hearts StickerPackExtension";
+			productName = "Pride Hearts StickerPackExtension";
+			productReference = AA4C47B31F1C1A4100648B0F /* Pride Hearts StickerPackExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA4C47A91F1C1A4100648B0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = kmdu59;
+				TargetAttributes = {
+					AA4C47AE1F1C1A4100648B0F = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					AA4C47B21F1C1A4100648B0F = {
+						CreatedOnToolsVersion = 9.0;
+					};
+				};
+			};
+			buildConfigurationList = AA4C47AC1F1C1A4100648B0F /* Build configuration list for PBXProject "Pride Hearts" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA4C47A81F1C1A4100648B0F;
+			productRefGroup = AA4C47B01F1C1A4100648B0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA4C47AE1F1C1A4100648B0F /* Pride Hearts */,
+				AA4C47B21F1C1A4100648B0F /* Pride Hearts StickerPackExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA4C47AD1F1C1A4100648B0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA4C47B91F1C1A4200648B0F /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA4C47B11F1C1A4100648B0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA4C47B81F1C1A4200648B0F /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA4C47B61F1C1A4100648B0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA4C47B21F1C1A4100648B0F /* Pride Hearts StickerPackExtension */;
+			targetProxy = AA4C47B51F1C1A4100648B0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA4C47BA1F1C1A4200648B0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA4C47BB1F1C1A4200648B0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA4C47BD1F1C1A4200648B0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 569B2RRWKG;
+				INFOPLIST_FILE = "Pride Hearts StickerPackExtension/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kmdu59.Pride-Hearts.StickerPackExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA4C47BE1F1C1A4200648B0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 569B2RRWKG;
+				INFOPLIST_FILE = "Pride Hearts StickerPackExtension/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kmdu59.Pride-Hearts.StickerPackExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA4C47C11F1C1A4200648B0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 569B2RRWKG;
+				INFOPLIST_FILE = "Pride Hearts/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kmdu59.Pride-Hearts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA4C47C21F1C1A4200648B0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 569B2RRWKG;
+				INFOPLIST_FILE = "Pride Hearts/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kmdu59.Pride-Hearts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA4C47AC1F1C1A4100648B0F /* Build configuration list for PBXProject "Pride Hearts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA4C47BA1F1C1A4200648B0F /* Debug */,
+				AA4C47BB1F1C1A4200648B0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA4C47BC1F1C1A4200648B0F /* Build configuration list for PBXNativeTarget "Pride Hearts StickerPackExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA4C47BD1F1C1A4200648B0F /* Debug */,
+				AA4C47BE1F1C1A4200648B0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA4C47C01F1C1A4200648B0F /* Build configuration list for PBXNativeTarget "Pride Hearts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA4C47C11F1C1A4200648B0F /* Debug */,
+				AA4C47C21F1C1A4200648B0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA4C47A91F1C1A4100648B0F /* Project object */;
+}

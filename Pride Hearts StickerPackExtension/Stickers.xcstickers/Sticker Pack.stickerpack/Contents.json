@@ -1,0 +1,119 @@
+{
+  "stickers" : [
+    {
+      "filename" : "heartflag_achillean.sticker"
+    },
+    {
+      "filename" : "heartflag_agender.sticker"
+    },
+    {
+      "filename" : "heartflag_agenderflux.sticker"
+    },
+    {
+      "filename" : "heartflag_ambonec.sticker"
+    },
+    {
+      "filename" : "heartflag_androgyne.sticker"
+    },
+    {
+      "filename" : "heartflag_aquarigender.sticker"
+    },
+    {
+      "filename" : "heartflag_aroflux.sticker"
+    },
+    {
+      "filename" : "heartflag_aromantic.sticker"
+    },
+    {
+      "filename" : "heartflag_asexual.sticker"
+    },
+    {
+      "filename" : "heartflag_autigender.sticker"
+    },
+    {
+      "filename" : "heartflag_bigender.sticker"
+    },
+    {
+      "filename" : "heartflag_bisexual.sticker"
+    },
+    {
+      "filename" : "heartflag_demiboy.sticker"
+    },
+    {
+      "filename" : "heartflag_demienby.sticker"
+    },
+    {
+      "filename" : "heartflag_demigender.sticker"
+    },
+    {
+      "filename" : "heartflag_demigirl.sticker"
+    },
+    {
+      "filename" : "heartflag_demiromantic.sticker"
+    },
+    {
+      "filename" : "heartflag_demisexual.sticker"
+    },
+    {
+      "filename" : "heartflag_diamoric.sticker"
+    },
+    {
+      "filename" : "heartflag_genderfluid.sticker"
+    },
+    {
+      "filename" : "heartflag_genderflux.sticker"
+    },
+    {
+      "filename" : "heartflag_genderqueer.sticker"
+    },
+    {
+      "filename" : "heartflag_intergender.sticker"
+    },
+    {
+      "filename" : "heartflag_intersex.sticker"
+    },
+    {
+      "filename" : "heartflag_lesbian.sticker"
+    },
+    {
+      "filename" : "heartflag_maverique.sticker"
+    },
+    {
+      "filename" : "heartflag_neurogender.sticker"
+    },
+    {
+      "filename" : "heartflag_neutrois.sticker"
+    },
+    {
+      "filename" : "heartflag_nonbinary.sticker"
+    },
+    {
+      "filename" : "heartflag_pansexual.sticker"
+    },
+    {
+      "filename" : "heartflag_polyamory.sticker"
+    },
+    {
+      "filename" : "heartflag_polysexual.sticker"
+    },
+    {
+      "filename" : "heartflag_rainbow.sticker"
+    },
+    {
+      "filename" : "heartflag_sapphic.sticker"
+    },
+    {
+      "filename" : "heartflag_trans.sticker"
+    },
+    {
+      "filename" : "heartflag_trigender.sticker"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "properties" : {
+    "grid-size" : "regular"
+  }
+}
