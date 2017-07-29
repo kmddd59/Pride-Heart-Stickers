@@ -329,6 +329,7 @@
 				AA4C47BE1F1C1A4200648B0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA4C47C01F1C1A4200648B0F /* Build configuration list for PBXNativeTarget "Pride Hearts" */ = {
 			isa = XCConfigurationList;
@@ -337,6 +338,7 @@
 				AA4C47C21F1C1A4200648B0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
